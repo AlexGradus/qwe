@@ -1,0 +1,196 @@
+body{
+   
+    width: 886px;
+    margin: 0 auto;
+}
+.Information{
+    font-size: 14px;
+}
+
+.Key{
+    background-color: aliceblue;
+   width: 55px;
+   height: 55px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+   border:1px solid grey;
+
+   
+}
+.Backquote{
+    background-color: aliceblue;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border:1px solid grey;
+
+}
+.Key1{
+    background-color: aliceblue;
+   width: 55px;
+   height: 55px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   border:1px solid grey;
+   
+}
+.Key1.Active{
+    background-color: blue;
+    color: white;
+    border-radius: 0px;
+    animation:KeyChange ;
+    animation-duration: .1s;
+    
+    border-radius: 50px;
+    background-color: blue;
+}
+.KeyA.Active{
+    background-color: blue;
+    color: white;
+    border-radius: 0px;
+    animation:KeyChange ;
+    animation-duration: .1s;
+    
+    border-radius: 50px;
+    background-color: blue;
+}
+
+.KeyR{
+    display: none;
+    background-color: aliceblue;
+    width: 55px;
+    height: 55px;
+   
+    justify-content: center;
+    align-items: center;
+    border:1px solid grey;
+}
+
+.KeyboardOuter{
+    width: 886px;
+    background-color: rgb(224, 224, 216);
+     position: relative;
+  
+}
+.KeyboardGate{
+    display: flex;
+}
+.Tab{
+    width: 199px;
+}
+.Backspace{
+    width: 142px;
+}
+
+.Shift_left{
+    width: 142px;
+}
+.Shift_right{
+    width: 55px;
+}
+
+.Ctrl{
+    width: 112px;
+}
+.Space{
+    width:370px;
+}
+
+.Caps_Lock{
+    width:100px; 
+}
+
+.Enter{
+    width:97px;
+}
+
+.KeyboardInput{
+    width: 876px;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.Key:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 0px;
+    cursor: pointer;
+   
+}
+.Key1:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 0px;
+    cursor: pointer;
+   
+}
+.KeyR:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 0px;
+    cursor: pointer;
+   
+}
+
+@keyframes KeyChange{
+    from {
+        border-radius: 0px;
+        background-color: blue;
+      }
+      to {
+        border-radius: 50px;
+        background-color: blue;
+      }
+    }
+
+    .Key.Active{
+        background-color: blue;
+        color: white;
+        border-radius: 0px;
+        animation:KeyChange ;
+        animation-duration: .1s;
+        
+        border-radius: 50px;
+        background-color: blue;
+    }
+    .Active{
+        background-color: blue;
+        color: white;
+        border-radius: 0px;
+        animation:KeyChange ;
+        animation-duration: .1s;
+        
+        border-radius: 50px;
+        background-color: blue;
+    }
+
+    .Space.Active{
+        background-color: blue;
+        color: white;
+        border-radius: 0px;
+        animation:KeyChange ;
+        animation-duration: .1s;
+        
+        border-radius: 50px;
+        background-color: blue;
+    }
+
+    .Russian{
+        display:none;
+    }
+
+    .English{
+        display:flex;
+    }
+
+
+
